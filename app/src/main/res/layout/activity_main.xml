@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C5899">
+    <ImageView
+        android:layout_above="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/facebook"/>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+        <EditText
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+        <Button
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="15dp"
+            android:background="#FF152278"
+            android:textColor="@color/white"
+            android:text="@string/lo_gin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:text="For Password?"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textColor="#fff"
+        android:text="@string/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
