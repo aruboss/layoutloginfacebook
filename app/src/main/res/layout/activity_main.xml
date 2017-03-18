@@ -19,6 +19,7 @@
         android:orientation="vertical">
         <EditText
             android:textColor="@color/black"
+            android:background="@color/white"
             android:paddingLeft="10dp"
             android:layout_marginBottom="15dp"
             android:hint="@string/input_username"
@@ -27,6 +28,7 @@
             />
         <EditText
             android:textColor="@color/black"
+            android:background="@color/white"
             android:inputType="textPassword"
             android:paddingLeft="10dp"
             android:layout_marginBottom="15dp"
@@ -46,7 +48,7 @@
         <TextView
             android:layout_marginBottom="15dp"
             android:textColor="@color/white"
-            android:text="For Password?"
+            android:text="Forgot Password?"
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
